@@ -1,0 +1,125 @@
+.bar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(39, 39, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+.bar p {
+  font-family: sono, sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+
+@media (min-width: 722px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 110vh;
+  }
+  .kalimat {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 6%;
+  }
+  .kalimat p {
+    font-size: small;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.card {
+  max-width: 600px;
+  width: 200px;
+  margin: 50px 50px 50px 50px;
+  height: 435px;
+  border: 2px solid rgb(39, 39, 236);
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+.persegi {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 7%;
+}
+.bar2 {
+  width: auto;
+  height: 65px;
+  background-color: rgb(39, 39, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  border-radius: 16px 16px 0px 0px;
+}
+.content p {
+  padding: 0 0 10px 10px;
+  font-family: poppins;
+  font-size: small;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  margin-top: 3%;
+}
+.form input {
+  width: 100px;
+  height: 20px;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.form button {
+  width: 100px;
+  font-family: poppins;
+  font-size: smaller;
+}
+
+.form p {
+  font-family: poppins;
+  font-size: smaller;
+}
+
+@media (max-width: 721px) {
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 158vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .kalimat {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 12%;
+  }
+  .kalimat p {
+    font-size: small;
+    column-gap: normal;
+  }
+
+  .card {
+    width: 200px;
+    margin: auto;
+    height: 435px;
+    border: 2px solid rgb(39, 39, 236);
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bar">
+      <p>Katik Kalkulator Matematika by Reyhan Maulana</p>
+    </div>
+    <br />
+    <div class="kalimat">
+      <h2>Welcome</h2>
+      <p>
+        Hai Sobat, Selamat datang di Katik :) <br />Sebuah Web apps sederhana
+        yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+      </p>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="bar2">Luas Persegi</div>
+        <div class="persegi"></div>
+        <div class="content">
+          <p>Rumus Luas Persegi</p>
+          <center><p>L = S x S</p></center>
+          <p>
+            Dimana : <br />
+            L = Luas <br />
+            S = Sisi
+          </p>
+        </div>
+        <hr />
+
+        <div class="form">
+          <input
+            type="number"
+            id="sisi"
+            name="sisi"
+            required
+            placeholder="isi angka disini"
+          />
+          <br /><br />
+          <button type="button" id="hitungButton">Hitung</button>
+          <p id="jawabanluas"></p>
+        </div>
+      </div>
+
+      <!--Kartu kedua-->
+
+      <div class="card">
+        <div class="bar2">keliling Persegi</div>
+        <div class="persegi"></div>
+        <div class="content">
+          <p>Rumus Keliling Persegi</p>
+          <center><p>K = 4 x S</p></center>
+          <p>
+            Dimana : <br />
+            K = keliling <br />
+            S = Sisi
+          </p>
+        </div>
+        <hr />
+
+        <div class="form">
+          <input
+            type="number"
+            id="sisik"
+            name="sisi"
+            required
+            placeholder="isi angka disini"
+          />
+          <br /><br />
+          <button type="button" id="hitungButtonkll">Hitung</button>
+          <p id="jkeliling"></p>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
